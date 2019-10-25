@@ -1,6 +1,6 @@
 document.getElementsByClassName("id_logic_version").innerHTML = "Logic version = 2019.10.25.0"
-window.addEventListener("deciceorienation", on_orentation_uab);
-window.addEventListener("deciceorienation", on_motion_uab);
+window.addEventListener("deviceorienation", on_orentation_uab);
+window.addEventListener("devicemotion", on_motion_uab);
 
 function on_orentation_uab(e)
 {
